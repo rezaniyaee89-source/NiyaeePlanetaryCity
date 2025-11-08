@@ -1,24 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta charset="utf-8">
-  <title>سایت من</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحه اصلی | سایت من</title>
   <style>
     body {
-      font-family: sans-serif;
-      direction: rtl;
+      margin: 0;
+      font-family: "Vazir", sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
       text-align: center;
-      margin-top: 80px;
-      background: #f4f6f8;
-      color: #333;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    main {
+      padding: 80px 20px;
     }
     h1 {
-      color: #007acc;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    footer {
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 10px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>سلام 👋</h1>
-  <p>این سایت روی GitHub Pages ساخته شده است!</p>
+  <header>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>به سایت من خوش آمدید 🌈</h1>
+    <p>این یک وب‌سایت مدرن و رنگی است که فقط با HTML و CSS ساخته شده و روی GitHub Pages منتشر می‌شود.</p>
+  </main>
+
+  <footer>
+    <p>© ۲۰۲۵ - طراحی شده با ❤️ توسط من</p>
+  </footer>
+</body>
+</html>  
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>درباره ما | سایت من</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Vazir", sans-serif;
+      background: linear-gradient(135deg, #43cea2, #185a9d);
+      color: white;
+      text-align: center;
+    }
+    header { background: rgba(0, 0, 0, 0.2); padding: 15px 0; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #ffeb3b; }
+    main { padding: 80px 20px; max-width: 700px; margin: auto; }
+    footer { margin-top: 50px; background: rgba(255,255,255,0.15); padding: 10px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>درباره ما</h1>
+    <p>ما یک تیم کوچک خلاق هستیم که عاشق طراحی وب‌سایت‌های ساده، زیبا و سریعیم.</p>
+    <p>هدف ما ساخت صفحاتی است که در هر دستگاهی عالی دیده شوند — از موبایل تا دسکتاپ.</p>
+  </main>
+
+  <footer>
+    <p>© ۲۰۲۵ - تمامی حقوق محفوظ است.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تماس با ما | سایت من</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Vazir", sans-serif;
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+      color: white;
+      text-align: center;
+    }
+    header { background: rgba(0, 0, 0, 0.2); padding: 15px 0; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; transition: 0.3s; }
+    nav a:hover { color: #ffeb3b; }
+    main { padding: 80px 20px; }
+    input, textarea {
+      width: 90%;
+      max-width: 400px;
+      margin: 10px auto;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+    button {
+      background: white;
+      color: #ff5e62;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ffeb3b;
+      color: #333;
+    }
+    footer { margin-top: 50px; background: rgba(255,255,255,0.15); padding: 10px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">خانه</a>
+      <a href="about.html">درباره ما</a>
+      <a href="contact.html">تماس با ما</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>تماس با ما 📬</h1>
+    <p>اگر پیشنهادی دارید یا می‌خواهید با ما در ارتباط باشید، فرم زیر را پر کنید.</p>
+    <form>
+      <input type="text" placeholder="نام شما"><br>
+      <input type="email" placeholder="ایمیل شما"><br>
+      <textarea rows="4" placeholder="پیام شما"></textarea><br>
+      <button type="submit">ارسال</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© ۲۰۲۵ - طراحی با عشق ❤️</p>
+  </footer>
 </body>
 </html>
