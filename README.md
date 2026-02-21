@@ -3,8 +3,8 @@
 
 ---
 
-![Book Cover](images/traffic-cover.jpg)
-
+![Book Cover](images/NIYAEE PLANETARY CITY (First Volume)-cover.jpg)
+**Download:** [NIYAEE PLANETARY CITY (First Volume) (PDF)](https://zenodo.org/records/18525659)
 ---
 
 ## 📖 Book Summary
